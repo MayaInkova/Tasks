@@ -1,0 +1,2567 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/.gitignore	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,29 @@
++### IntelliJ IDEA ###
++out/
++!**/src/main/**/out/
++!**/src/test/**/out/
++
++### Eclipse ###
++.apt_generated
++.classpath
++.factorypath
++.project
++.settings
++.springBeans
++.sts4-cache
++bin/
++!**/src/main/**/bin/
++!**/src/test/**/bin/
++
++### NetBeans ###
++/nbproject/private/
++/nbbuild/
++/dist/
++/nbdist/
++/.nb-gradle/
++
++### VS Code ###
++.vscode/
++
++### Mac OS ###
++.DS_Store
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/.idea/.gitignore	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/.idea/misc.xml	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/.idea/modules.xml	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/Maya.iml" filepath="$PROJECT_DIR$/Maya.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/.idea/uiDesigner.xml	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.svg" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/.idea/vcs.xml	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: Maya.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Maya.iml b/Maya.iml
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/Maya.iml	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: src/BMICalculator.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/BMICalculator.java b/src/BMICalculator.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/BMICalculator.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,53 @@
++import java.util.Scanner;
++
++public class BMICalculator {
++    public static void main(String[] args) {
++        printIntroduction ();
++
++        Scanner scanner = new Scanner (System.in);
++
++        double bmi = getBMI(scanner);
++
++        String status = getStatus(bmi);
++
++        reportResults(bmi,status);
++    }
++
++    public static void printIntroduction() {
++
++    }
++    public  static double getBMI(Scanner scanner) {
++        double height = scanner.nextDouble();
++        double weight = scanner.nextDouble();
++
++        double heightInCm = height * 2.54;
++        double weightInKg = weight / 2.2046;
++
++        return  bmiFor(weightInKg,heightInCm);
++
++    }
++     public  static  double bmiFor(double weight,double height){
++        return  weight * 703 / (height * height);
++     }
++     public  static  String getStatus(double bmi) {
++        if (bmi <= 18.5) {
++            return "underweight";
++        } else if (bmi <= 25) {
++            return "normal";
++        } else if (bmi <= 30) {
++            return "overweight";
++        }else  {
++            return  "obese";
++
++
++        }
++
++     }
++     public  static  void reportResults (double bmi,String status) {
++       double roundedBMI = Math.round(bmi * 100.0) / 100.0;
++         System.out.println("BMI is:"+ roundedBMI);
++         System.out.println("Status: "+ status);
++
++     }
++
++}
+Index: src/Basics/Ages.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Basics/Ages.java b/src/Basics/Ages.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Basics/Ages.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,33 @@
++package Basics;
++
++import java.util.Scanner;
++
++// Влиза само в една проверка
++
++public class Ages {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++        int age = Integer.parseInt(scanner.nextLine());
++        String person = "";
++        if (age >= 0 && age <= 2) {
++            person = "baby";
++
++        } else if (age >= 3 && age <= 13) {
++            person = "child";
++
++        } else if (age >= 14 && age <= 19) {
++            person = "teenager";
++
++        } else if (age >= 20 && age <= 65) {
++            person = "adult";
++
++        } else if (age >= 66) {
++            person = " elder";
++
++        }
++        System.out.println(person);
++    }
++}
++
++
++
+Index: src/Basics/Arr1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Basics/Arr1.java b/src/Basics/Arr1.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Basics/Arr1.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,58 @@
++package Basics;
++
++import java.util.Scanner;
++
++//Да се напише програма, която чете два масива от конзолата и провerрява дали са еднакви.
++public class Arr1 {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++
++        // Четене на първия масив
++        System.out.print("Въведете броя на елементите за първия масив: ");
++        int size1 = scanner.nextInt();
++        int[] array1 = new int[size1];
++        System.out.println("Въведете елементите на първия масив:");
++        for (int i = 0; i < size1; i++) {
++            array1[i] = scanner.nextInt();
++        }
++
++        // Четене на втория масив
++        System.out.print("Въведете броя на елементите за втория масив: ");
++        int size2 = scanner.nextInt();
++        int[] array2 = new int[size2];
++        System.out.println("Въведете елементите на втория масив:");
++        for (int i = 0; i < size2; i++) {
++            array2[i] = scanner.nextInt();
++        }
++
++        // Проверка дали масивите са еднакви
++        boolean areEqual = areArraysEqual(array1, array2);
++
++        // Извеждане на резултата
++        if (areEqual) {
++            System.out.println("Масивите са еднакви.");
++        } else {
++            System.out.println("Масивите не са еднакви.");
++        }
++
++
++    }
++
++    // Метод за проверка дали два масива са еднакви
++    private static boolean areArraysEqual(int[] array1, int[] array2) {
++        // Проверка дали дължините на масивите са различни
++        if (array1.length != array2.length) {
++            return false;
++        }
++
++        // Проверка на всеки елемент
++        for (int i = 0; i < array1.length; i++) {
++            if (array1[i] != array2[i]) {
++                return false;
++            }
++        }
++        return  true;
++
++    }
++}
++
+Index: src/Basics/ArrayRotation.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Basics/ArrayRotation.java b/src/Basics/ArrayRotation.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Basics/ArrayRotation.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,33 @@
++package Basics;
++
++import java.util.Scanner;
++//програма получава масив където 1 елемент отива отзад(ротация)
++
++
++public class ArrayRotation {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++
++        String [] array = scanner.nextLine().split(" ");
++        int rotations = Integer.parseInt(scanner.nextLine());
++        for (int i = 0; i <rotations ; i++) {
++            String firstElement = array [0];
++            // местя всички 1 ел. наляво без 1
++
++            for (int j = 0; j <array.length-1 ; j++) {
++                array [j]= array[j+1];
++
++
++
++            }
++            //добавяме 1 елемент на последната позиция
++
++            array[array.length-1]= firstElement;
++
++
++
++        }
++        System.out.println( String .join(" ", array));
++
++    }
++}
+Index: src/Basics/CommonElements.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Basics/CommonElements.java b/src/Basics/CommonElements.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Basics/CommonElements.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,22 @@
++package Basics;
++
++import java.util.Scanner;
++// принтираме два масива и принтираме тези, които съвпадат
++
++public class CommonElements {
++    public static void main(String[] args) {
++        Scanner scanner= new Scanner(System.in);
++
++        String [] firstArr = scanner.nextLine().split(" ");
++        String [] secondArr = scanner.nextLine().split(" ");
++
++        for (String secondElement : secondArr) {
++            for (String firstElement : firstArr) {
++                if (secondElement.equals(firstElement)) {
++                    System.out.println(firstElement + " ");
++                }
++            }
++
++        }
++    }
++}
+Index: src/Basics/Constructors01.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Basics/Constructors01.java b/src/Basics/Constructors01.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Basics/Constructors01.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,29 @@
++package Basics;
++
++//Да се напише if-конструкция, която изчислява стойността на две целочислени променливи и разменя техните стойности,
++// ако стойността на първата променлива е по-голяма от втората.
++
++public class Constructors01 {
++    public static void main(String[] args) {
++        int a = 5;
++        int b = 10;
++
++        System.out.println("Before swapping:");
++        System.out.println("a = " + a);
++        System.out.println("b = " + b);
++
++        // Проверка дали a е по-голямо от b
++        if (a > b) {
++            // Размяна на стойностите
++            int temp = a;
++            a = b;
++            b = temp;
++        }
++
++        System.out.println("\nAfter swapping:");
++        System.out.println("a = " + a);
++        System.out.println("b = " + b);
++    }
++}
++
++
+Index: src/Basics/Constructors02.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Basics/Constructors02.java b/src/Basics/Constructors02.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Basics/Constructors02.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,30 @@
++package Basics;
++
++//  Напишете програма, която показва знака (+ или -)
++//  от частното на две реални числа, без да го пресмята.
++
++import java.util.Scanner;
++
++public class Constructors02 {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++
++        System.out.print("Enter the first number: ");
++        double number1 = scanner.nextDouble();
++
++        System.out.print("Enter the second number: ");
++        double number2 = scanner.nextDouble();
++
++        char sign;
++
++        // Проверка на знаковете на числата
++        if ((number1 < 0 && number2 > 0) || (number1 > 0 && number2 < 0)) {
++            sign = '-';
++        } else {
++            sign = '+';
++        }
++
++        System.out.println("The sign of the quotient is: " + sign);
++    }
++}
++
+Index: src/Basics/Constructors03.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Basics/Constructors03.java b/src/Basics/Constructors03.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Basics/Constructors03.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,57 @@
++package Basics;
++
++//Напишете програма, която за дадена цифра (0-9),
++// зададена като вход, извежда името на цифрата на български език
++
++import java.util.Scanner;
++
++public class Constructors03 {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++
++        System.out.print("Въведете цифра (0-9): ");
++        int digit = scanner.nextInt();
++
++        String digitName;
++
++        // Използване на switch-case за да определим името на цифрата
++        switch (digit) {
++            case 0:
++                digitName = "нула";
++                break;
++            case 1:
++                digitName = "едно";
++                break;
++            case 2:
++                digitName = "две";
++                break;
++            case 3:
++                digitName = "три";
++                break;
++            case 4:
++                digitName = "четири";
++                break;
++            case 5:
++                digitName = "пет";
++                break;
++            case 6:
++                digitName = "шест";
++                break;
++            case 7:
++                digitName = "седем";
++                break;
++            case 8:
++                digitName = "осем";
++                break;
++            case 9:
++                digitName = "девет";
++                break;
++            default:
++                digitName = "невалидна цифра";
++        }
++
++        System.out.println("Името на цифрата е: " + digitName);
++    }
++}
++
++
+Index: src/Basics/Constructors04.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Basics/Constructors04.java b/src/Basics/Constructors04.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Basics/Constructors04.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,39 @@
++package Basics;
++
++//Програма, която прилага бонус точки към дадени точки в интервала [1..9] чрез прилагане на следните правила:
++//
++//-     Ако точките са между 1 и 3, програмата ги умножава по 10.
++//
++//-     Ако точките са между 4 и 6, ги умножава по 100.
++//
++//-     Ако точките са между 7 и 9, ги умножава по 1000.
++//
++//-     Ако точките са 0 или повече от 9, се отпечатва съобщение за грешка.
++
++import java.util.Scanner;
++
++public class Constructors04 {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++
++
++        System.out.print("Enter points: ");
++        int points = scanner.nextInt();
++
++        int bonusPoints;
++
++        // Проверка за интервалите и прилагане на бонус точки
++        if (points >= 1 && points <= 3) {
++            bonusPoints = points * 10;
++        } else if (points >= 4 && points <= 6) {
++            bonusPoints = points * 100;
++        } else if (points >= 7 && points <= 9) {
++            bonusPoints = points * 1000;
++        } else {
++            System.out.println("Error: Points should be between 1 and 9.");
++            return;
++        }
++
++        System.out.println("Bonus points: " + bonusPoints);
++    }
++}
+Index: src/Basics/Constructors05.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Basics/Constructors05.java b/src/Basics/Constructors05.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Basics/Constructors05.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,70 @@
++package Basics;
++
++import java.util.Scanner;
++
++// програма, която преобразува дадено число в интервала [0..999] в текст, съответстващ на българското произношение.
++// Примери:
++//    0 -> "Нула"
++//    273 -> "Двеста седемдесет и три"
++//   400 -> "Четиристотин"
++//   501 -> "Петстотин и едно"
++//   711 -> "Седемстотин и единадесет"
++
++
++public class Constructors05 {
++
++        static final String[] units = {
++                "", "едно", "две", "три", "четири", "пет", "шест", "седем", "осем", "девет",
++                "десет", "единадесет", "дванадесет", "тринадесет", "четиринадесет", "петнадесет",
++                "шестнадесет", "седемнадесет", "осемнадесет", "деветнадесет"
++        };
++
++        // Масив с българските наименования на десетиците
++        private static final String[] tens = {
++                "", "", "двадесет", "тридесет", "четиридесет", "петдесет", "шестдесет",
++                "седемдесет", "осемдесет", "деветдесет"
++        };
++
++        // Масив с българските наименования на стотиците
++        private static final String[] hundreds = {
++                "", "сто", "двеста", "триста", "четиристотин", "петстотин", "шестстотин",
++                "седемстотин", "осемстотин", "деветстотин"
++        };
++
++        public static void main (String[]args){
++            Scanner scanner = new Scanner(System.in);
++
++            System.out.print("Enter a number (0-999): ");
++            int number = scanner.nextInt();
++
++            if (number < 0 || number > 999) {
++                System.out.println("Invalid input! Number should be between 0 and 999.");
++                return;
++            }
++
++            String result = "";
++
++            // Преобразуване на стотиците
++            if (number >= 100) {
++                result += hundreds[number / 100] + " ";
++                number %= 100;
++            }
++
++            // Преобразуване на десетиците и единиците
++            if (number >= 20) {
++                result += tens[number / 10] + " ";
++                number %= 10;
++            }
++
++            if (number > 0) {
++                result += units[number];
++            }
++
++            if (result.equals("")) {
++                result = "нула";
++            }
++
++            System.out.println("Number in Bulgarian: " + result);
++        }
++    }
++
+Index: src/Basics/Division.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Basics/Division.java b/src/Basics/Division.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Basics/Division.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,40 @@
++package Basics;
++
++import java.util.Scanner;
++
++// да проверим дали едно число се дели без остатък
++
++public class Division {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++        int number = Integer.parseInt(scanner.nextLine());
++        int num = 0; // пазим числото
++        boolean isDivision = true;
++
++        // 2, 3 , 6 , 7 , 10
++
++        if (number % 10 == 0) {
++            num = 10;
++        } else if (number % 7 == 0) {
++            num = 7;
++
++        } else if (number % 6 == 0) {
++            num = 6;
++
++        } else if (number % 3 == 0) {
++            num = 3;
++
++        } else if (number % 2 == 0) {
++            num = 2;
++
++        } else {
++            isDivision = false;
++        }
++        if (isDivision) {
++            System.out.printf("The number divisible by %d", num);
++        } else {
++            System.out.println("Not divisible");
++
++        }
++    }
++}
+Index: src/Basics/Elevator.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Basics/Elevator.java b/src/Basics/Elevator.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Basics/Elevator.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,20 @@
++package Basics;
++
++import java.util.Scanner;
++
++//Асансъор колко места и колко души имаме да изпринтираме колко пъти ще се дрвижи асансъора
++
++public class Elevator {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++
++        int n = Integer.parseInt(scanner.nextLine());
++        int p = Integer.parseInt(scanner.nextLine());
++
++        double courses = Math.ceil((double) n/p);
++        //др вариант е да си  четем n като double и да не кастваме
++
++        System.out.printf("%.0f", courses);
++    }
++
++}
+Index: src/Basics/IntegerOperations.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Basics/IntegerOperations.java b/src/Basics/IntegerOperations.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Basics/IntegerOperations.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,18 @@
++package Basics;
++
++import java.util.Scanner;
++
++// 4 числа на които правим целочислено деление
++
++public class IntegerOperations {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++        int n1 =Integer.parseInt(scanner.nextLine());
++        int n2 =Integer.parseInt(scanner.nextLine());
++        int n3 =Integer.parseInt(scanner.nextLine());
++        int n4 =Integer.parseInt(scanner.nextLine());
++
++        int result = ((n1 + n2) / n3) *n4;
++        System.out.println(result);
++    }
++}
+Index: src/Basics/LadyBugs.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Basics/LadyBugs.java b/src/Basics/LadyBugs.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Basics/LadyBugs.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,9 @@
++package Basics;
++
++import java.util.Scanner;
++
++public class LadyBugs {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++    }
++}
+Index: src/Basics/Login.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Basics/Login.java b/src/Basics/Login.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Basics/Login.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,36 @@
++package Basics;
++
++import java.util.Scanner;
++
++// подаден user , а password наобратно имаме 4 опита
++
++public class Login {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++
++        System.out.println("Enter username:");
++        String username = scanner.nextLine();
++        String reversedUsername = "";
++
++        for (int i = username.length() - 1; i >= 0; i--) {
++            reversedUsername += username.charAt(i);
++        }
++
++        boolean isLogged = false;
++        for (int i = 0; i < 4; i++) {
++            System.out.println("Enter password:");
++            String inputPassword = scanner.nextLine();
++
++            if (inputPassword.equals(reversedUsername)) {
++                System.out.printf("User %s logged in:", username);
++                isLogged = true;
++                break;
++            } else {
++                System.out.println("Incorrect password. Try again.");
++            }
++        }
++        if (!isLogged) {
++            System.out.printf("User %s blocked!", username);
++        }
++    }
++}
+Index: src/Basics/Orders.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Basics/Orders.java b/src/Basics/Orders.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Basics/Orders.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,22 @@
++package Basics;
++
++import java.util.Scanner;
++
++public class Orders {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++        int n = Integer.parseInt(scanner.nextLine());
++        double totalPrice = 0.0;
++
++        for (int i = 0; i <n ; i++) {
++            double pricePerCapsule = Double.parseDouble(scanner.nextLine());
++            int days = Integer.parseInt(scanner.nextLine());
++            int capsuleCount = Integer.parseInt(scanner.nextLine());
++            double currentOrderPrice = (days * capsuleCount) * pricePerCapsule;
++            totalPrice += currentOrderPrice;
++            System.out.printf("The price for the coffee is: $%.2f%n",currentOrderPrice);
++        }
++        System.out.println();
++        System.out.printf("Total: %.2f",totalPrice);
++    }
++}
+Index: src/Basics/PrintAndSum.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Basics/PrintAndSum.java b/src/Basics/PrintAndSum.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Basics/PrintAndSum.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,20 @@
++package Basics;
++
++import java.util.Scanner;
++//принтираме числата от 5 до 10 и сумата им
++
++public class PrintAndSum {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++        int start = Integer.parseInt(scanner.nextLine());
++        int end = Integer.parseInt(scanner.nextLine());
++        int sum = 0;
++
++        for (int i = start;i <= end; i++){
++            sum += i;
++            System.out.print(i+ " ");
++
++        }
++        System.out.printf("\nSum: %d", sum);
++    }
++}
+Index: src/Basics/Snowballs.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Basics/Snowballs.java b/src/Basics/Snowballs.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Basics/Snowballs.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,38 @@
++package Basics;
++
++import java.util.Scanner;
++// програма изчисляваща най-добрата стойност на снежната топка
++
++public class Snowballs {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++        int n = Integer.parseInt(scanner.nextLine());
++        double maxSnowBallValue = 0;
++        int  maxSnowBallSnow = 0;
++        int  maxSnowBallTime = 0;
++        int maxSnowBallQuality = 0;
++        for (int i = 0; i <n ; i++) {
++
++
++            int snowballSnow = Integer.parseInt(scanner.nextLine());
++            int snowballTime = Integer.parseInt(scanner.nextLine());
++            int snowballQuality = Integer.parseInt(scanner.nextLine());
++
++            // заместваме трите променливи в snowballValue
++            double currentSnowBallValue= Math.pow((snowballSnow / snowballTime),snowballQuality);
++            if (currentSnowBallValue > maxSnowBallValue){
++                maxSnowBallValue = currentSnowBallValue;
++                maxSnowBallSnow = snowballSnow;
++                maxSnowBallTime= snowballTime;
++                maxSnowBallQuality= snowballQuality;
++
++            }
++
++        }
++        System.out.printf("%d :%d= %.0f(%d)" ,
++                maxSnowBallSnow,maxSnowBallTime,maxSnowBallValue,maxSnowBallQuality);
++
++
++
++    }
++}
+Index: src/Basics/StrongNumber.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Basics/StrongNumber.java b/src/Basics/StrongNumber.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Basics/StrongNumber.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,38 @@
++package Basics;
++
++import java.util.Scanner;
++//разбиваме едно число намираме му факториела и проверяваме числото
++// 5! = 5*4*3*2*1 = 120
++public class StrongNumber {
++    public static void main(String[] args) {
++        Scanner scanner= new Scanner(System.in);
++
++        String input = scanner.nextLine();
++        int number = Integer.parseInt(input);
++        int num = number;
++        int allDigitsFact = 0;
++
++        for (int i = 0; i<input.length();i++){
++           int digit =  num % 10;
++           num /= 10;
++
++           int fact = 1;
++
++            for (int j = 1; j <=digit ; j++) {
++                fact *= j;
++
++            }
++           allDigitsFact += fact;
++
++        }
++        if (number == allDigitsFact){
++            System.out.println("yes");
++
++        }else {
++            System.out.println("no");
++
++        }
++
++
++    }
++}
+Index: src/Basics/SumDigits.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Basics/SumDigits.java b/src/Basics/SumDigits.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Basics/SumDigits.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,27 @@
++package Basics;
++
++// раздробяваме цяло число и го събиране
++
++import java.util.Scanner;
++
++public class SumDigits {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++
++        String input = scanner.nextLine();
++
++        int sum = 0;
++        int number = Integer.parseInt(input);
++
++        for (int i   = 0;i<input.length() ; i++) {
++            int digit = number % 10;
++            sum += digit;
++            //премахва последната цифра
++            number = number / 10;
++
++
++        }
++        System.out.println(sum);
++
++    }
++}
+Index: src/Basics/Train.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Basics/Train.java b/src/Basics/Train.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Basics/Train.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,29 @@
++package Basics;
++
++import java.util.Scanner;
++
++//Влак, ще ни е дадено брой вагони с n  колко човека ше се качат
++// Да принтираме целия влак и броя хора в него
++
++public class Train {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++
++        int wagons = Integer.parseInt(scanner.nextLine());
++        int [] train = new int [wagons];
++
++        for (int i = 0; i <train.length ; i++) {
++            train[i]=Integer.parseInt (scanner.nextLine());
++
++
++        }
++        int allPeople = 0;
++        for (int i = 0; i <train.length ; i++) {
++            allPeople += train[i];
++            System.out.println(train[i]+ " ");
++
++        }
++        System.out.println(allPeople);
++
++    }
++}
+Index: src/Basics/ZigZagArrays.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Basics/ZigZagArrays.java b/src/Basics/ZigZagArrays.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Basics/ZigZagArrays.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,38 @@
++package Basics;
++
++import java.util.Scanner;
++
++//програма с два масива ,
++// които ги записваме на зиг-заг 1 масив е четна позиция-нечетна и така...
++
++public class ZigZagArrays {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++
++        int n = Integer.parseInt(scanner.nextLine());
++        String[] firstArr = new String[n];
++        String[] secondArr = new String[n];
++
++        for (int i = 0; i <= n; i++) {
++            String[] line = scanner.nextLine().split(" ");
++            if (i % 2 != 0) {
++                firstArr[i - 1] = line[0];
++                secondArr[i - 1] = line[1];
++
++            } else {
++                firstArr[i - 1] = line[1];
++                secondArr[i - 1] = line[0];
++            }
++        }
++        for (int i = 0; i < firstArr.length; i++) {
++            System.out.print(firstArr[i] + " ");
++
++        }
++        System.out.println();
++        for (int i = 0; i < secondArr.length; i++) {
++            System.out.print(secondArr[i] + " ");
++
++
++        }
++    }
++}
+Index: src/Company.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Company.java b/src/Company.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Company.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,83 @@
++import java.time.LocalDate;
++import java.util.Date;
++import java.util.Locale;
++
++public class Company {
++    public static void main(String[] args) {
++
++    }
++
++    private String name;
++    private String date;
++    private String bulstat;
++
++    public String getName() {
++        return name;
++    }
++
++    public void setName(String name) {
++        this.name = name;
++    }
++
++    public String getDate() {
++        return date;
++    }
++
++    public void setDate(String date) {
++        this.date = date;
++    }
++
++    public String getBulstat() {
++        return bulstat;
++    }
++
++    public void setBulstat(String bulstat) {
++        if (bulstat.length() == 10) {
++            this.bulstat = bulstat;
++        } else {
++            System.out.println("Bulstat must be 10 characters long.");
++        }
++
++
++    }
++}
++  class  FirmaED extends  Company {
++    private  String ownerName;
++    private  double initialCapital;
++    private double currentCapital;
++
++      public void setOwnerName(String ownerName) {
++          this.ownerName = ownerName;
++      }
++
++      public double getInitialCapital() {
++          return initialCapital;
++      }
++
++      public void setInitialCapital(double initialCapital) {
++          this.initialCapital = initialCapital;
++      }
++
++      public double getCurrentCapital() {
++          return currentCapital;
++      }
++
++      public void setCurrentCapital(double currentCapital) {
++          this.currentCapital = currentCapital;
++      }
++
++      public String getOwnerName() {
++          return ownerName;
++      }
++
++      public  double calculate (){
++
++          LocalDate currentDate = LocalDate.now();
++          LocalDate creation = LocalDate.parse(getDate());
++          long daysSinceCreation = java.time.temporal.ChronoUnit.DAYS.between(creation, currentDate);
++          return getCurrentCapital() - getInitialCapital();
++      }
++  }
++
++
++
+Index: src/Concert.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Concert.java b/src/Concert.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Concert.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,23 @@
++public class Concert extends Event {
++
++    protected String starName;
++
++    public Concert(String starName, String place, String date,
++                   String startHour, int numberOFTickets, double priceOfTicket) {
++        super(place, date, startHour, numberOFTickets, priceOfTicket);
++        this.starName = starName;
++    }
++
++    @Override
++    public boolean sellTicket(int num) throws Exception {
++        if (num > this.numberOfTickets || this.numberOfTickets == 0) {
++            throw new Exception(this.starName + "'s concert.");
++        } else {
++            this.numberOfTickets = this.numberOfTickets - num;
++            System.out.println(num + " tickets saled!");
++            System.out.println("All free tickets are: " + this.numberOfTickets);
++            return true;
++        }
++    }
++}
++
+Index: src/Event.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Event.java b/src/Event.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Event.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,20 @@
++public  abstract  class Event {
++
++    protected  String place;
++    protected  String date;
++    protected  String startHour;
++    protected  int  numberOfTickets;
++    protected  double priceOfTicket;
++
++    public  Event (String place,String date, String startHour,int numberOfTickets,double priceOfTicket) {
++        this.place = place;
++        this.date =date;
++        this.startHour=startHour;
++        this.numberOfTickets=numberOfTickets;
++        this.priceOfTicket=priceOfTicket;
++    }
++
++    public  abstract  boolean sellTicket(int numberOfTickets) throws  Exception;
++}
++
++
+Index: src/Exam01/DestinationMapper.java
+===================================================================
+diff --git a/src/Exam01/DestinationMapper.java b/src/Exam01/DestinationMapper.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Exam01/DestinationMapper.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,14 @@
++package Exam01;
++
++import java.util.Scanner;
++
++//имаме стринг и търсим съвпадения с регулярен израз
++
++public class DestinationMapper {
++    public static void main(String[] args) {
++        Scanner scanner= new Scanner(System.in);
++
++        
++
++    }
++}
+Index: src/Exam01/TheImitationGame.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Exam01/TheImitationGame.java b/src/Exam01/TheImitationGame.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Exam01/TheImitationGame.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,75 @@
++package Exam01;
++
++import java.util.Scanner;
++
++// търсим съвпадения с регулярен израз и изваждаме само част от текст
++
++public class TheImitationGame {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++
++        String message = scanner.nextLine();
++
++        String command = scanner.nextLine();
++        while (!command.equals("Decode")) {
++            String[] comandParts = command.split(" \\|");
++            String comandsName = comandParts[0];
++            switch (comandsName) {
++                case "ChangeAll":
++                    message = changeAll(message, comandParts[1], comandParts[2]);
++                    break;
++                case "Insert":
++                    message = insert(message, Integer.parseInt(comandParts[1]), comandParts[2]);
++                    break;
++                case "Move":
++                    message = move(message, Integer.parseInt(comandParts[1]));
++                    break;
++                default:
++                    throw new IllegalStateException("Unknown command" + comandsName);
++
++            }
++
++            command = scanner.nextLine();
++
++        }
++        System.out.println("The decrypted message is:" + message);
++
++    }
++
++    private static String changeAll(String message, String substr, String replacement) {
++        return message.replace(substr,replacement);
++
++
++    }
++
++    private static String insert(String message, int index, String substr) {
++        String firstPart = message.substring(0,index);
++        String  secondPart= message.substring(index);
++        return  firstPart+ substr + secondPart;
++
++
++    }
++
++
++    private static String move(String message, int lenght) {
++
++        String  firstPart = message.substring(0,lenght);
++        String  secondPart = message.substring(lenght);
++        return secondPart + firstPart;
++
++    }
++
++    }
++
++
++
++
++
++
++
++
++
++
++
++
++
+Index: src/Files/readBute.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Files/readBute.java b/src/Files/readBute.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Files/readBute.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,20 @@
++package Files;
++
++import java.io.File;
++import java.io.FileInputStream;
++import java.io.FileNotFoundException;
++import java.io.IOException;
++
++// четене на byte po byte
++public class readBute {
++    public static void main(String[] args) throws IOException {
++
++        String path = "input txt";
++        FileInputStream inputStream= new FileInputStream(path);
++        int readByte = inputStream.read();
++        while (readByte>=0 ) {
++            System.out.println(Integer.toBinaryString(readByte)+ " ");
++            readByte = inputStream.read();
++        }
++    }
++}
+Index: src/LadyBugs.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/LadyBugs.java b/src/LadyBugs.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/LadyBugs.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,76 @@
++import java.lang.reflect.Array;
++import java.util.Arrays;
++import java.util.Scanner;
++
++//даден ни е масив и ни казва на кои позиции ще има калинка
++// калинката ще си сменя позицията  0 дясно 1 ,
++// ако калинката кацне върху др продължава да търси място,
++// ако не намери полита, ако имаме празно място или - пропускаме команди
++
++public class LadyBugs {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++
++        int fieldSize = Integer.parseInt(scanner.nextLine());
++        int[] bugPositions = Arrays.stream(scanner.nextLine().split(""))
++                .mapToInt(e -> Integer.parseInt(e))
++                .toArray();
++        int[] field = new int[fieldSize];
++
++        // първоначалните калинки
++
++        for (int i = 0; i < bugPositions.length; i++) {
++            int index = bugPositions[i];
++            if (index >= 0 && index < field.length) {
++                field[index] = 1;
++
++
++                //sega prochitame lqvo dqsno komanda
++            }
++            String line = scanner.nextLine();
++            while (!line.equals("end")) {
++                String[] data = line.split(" ");
++                index = Integer.parseInt(data[0]);
++                String direction = data[1];
++                int flyLength = Integer.parseInt(data[2]);
++
++                if (index < 0 || index >= field.length || field[index] != 1) {
++                    line = scanner.nextLine();
++                    continue;
++
++                }
++                field[index] = 0;
++                switch (direction) {
++                    case "right":
++                        index += flyLength;
++                        // политане
++                        while (index < fieldSize && field[index] == 1) {
++                            index += flyLength;
++                        }
++                        //кацане
++                        if (index < fieldSize) {
++                            field[i] = 1;
++
++                        }
++                        break;
++                    case "left":
++                        index -= flyLength;
++                        // политане
++                        while (index >= 0 && field[index]==1) {
++                            index -= flyLength;
++                        }
++                        if (index >=0) {
++                            field[index] =1;
++                        }
++                        break;
++                }
++
++
++                line = scanner.nextLine();
++            }
++
++
++        }
++    }
++}
++
+Index: src/Lists/ChangeList.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Lists/ChangeList.java b/src/Lists/ChangeList.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Lists/ChangeList.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,53 @@
++package Lists;
++
++import java.util.Arrays;
++import java.util.List;
++import java.util.Scanner;
++import java.util.stream.Collectors;
++
++//Програма прочитаща  лист от конзолата и получава команди за маниполиране на листа
++// да изтрием всички елементи когато са равни
++//поставяме елемент на дадена позиция
++
++
++public class ChangeList {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++
++        List<Integer> numbers = Arrays.stream(scanner.nextLine().split("\\s+"))
++                .map(Integer::parseInt)
++                .collect(Collectors.toList());
++        String line = scanner.nextLine();
++        while (!line.equals("end")) {
++            String[] data = line.split("\\s+");
++            String command = data[0];
++
++            switch (command) {
++                case "Delete":
++                    int element = Integer.parseInt(data[1]);
++                    for (int i = 0; i < numbers.size(); i++) {
++                        if (numbers.get(i) == element) {
++                            numbers.remove(i);
++                            i--;
++
++                        }
++                    }
++                    break;
++                case "Insert":
++                    element = Integer.parseInt(data[1]);
++                    int position = Integer.parseInt(data[2]);
++                    numbers.add(position, element);
++                    break;
++
++
++            }
++        }
++        numbers.forEach(el -> System.out.println(el +  " "));
++
++
++    }
++}
++
++
++
++
+Index: src/Lists/Train.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Lists/Train.java b/src/Lists/Train.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Lists/Train.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,44 @@
++package Lists;
++
++import java.util.Arrays;
++import java.util.List;
++import java.util.Scanner;
++import java.util.stream.Collectors;
++
++//Влак на 1 линия получаваме лист от вагони на следващият ред макс. капацитет на вагона
++// после добавчяме вагон  add операцията и намираме съществуващ вагон кохто да хване определен брои пътници
++
++
++public class Train {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++
++        List<Integer> train = Arrays.stream(scanner.nextLine().split(" "))
++                .map(Integer::parseInt)
++                .collect(Collectors.toList());
++
++        int maxCapacity = Integer.parseInt(scanner.nextLine());
++
++        String  line = scanner.nextLine();
++        while (!line.equals("end")) {{
++             String  [] data= line.split("\\s+");
++             if (data [0].equals("Add")) {
++                 train.add(Integer.parseInt(data [1]));
++
++             }else  {
++                 int passengers = Integer.parseInt(data[0]);
++                 for (int i = 0; i <train.size() ; i++) {
++                     if (train.get(i) + passengers <= maxCapacity) {
++    train.set(i,train.get(i)+ passengers + passengers );
++    break;
++
++                     }
++
++                 }
++             }
++            System.out.println(train.toString().replaceAll("\\[\\]\\,", " "));
++        }
++}
++    }
++}
++
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Main.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,15 @@
++//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
++// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
++public class Main {
++    public static void main(String[] args) {
++        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
++        // to see how IntelliJ IDEA suggests fixing it.
++        System.out.printf("Hello and welcome!");
++
++        for (int i = 1; i <= 5; i++) {
++            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
++            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
++            System.out.println("i = " + i);
++        }
++    }
++}
+\ No newline at end of file
+Index: src/Methods/CharactersInRange.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Methods/CharactersInRange.java b/src/Methods/CharactersInRange.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Methods/CharactersInRange.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,33 @@
++package Methods;
++
++// Метод който получава два символа и принтира символите между тях от аски таблицата
++
++import java.util.Scanner;
++
++public class CharactersInRange {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++
++        char start = scanner.nextLine().charAt(0);
++        char end = scanner.nextLine().charAt(0);
++
++        printCharacterInRange ( start, end);
++
++
++
++
++    }
++    public static void printCharacterInRange(char start,char end) {
++        if (start > end) {
++            char temp = start;
++            start = end;
++            end = temp;
++        }
++        for (int i = start + 1; i <end ; i++) {
++            System.out.printf("%c", i );
++
++
++        }
++
++    }
++}
+Index: src/Methods/Method1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Methods/Method1.java b/src/Methods/Method1.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Methods/Method1.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,19 @@
++package Methods;
++
++import java.util.Scanner;
++
++//  Напишете метод, който при подадено име отпечатва
++//  в конзолата "Hello, <name>!" (например "Hello, Peter!").
++//  Напишете програма, която тества този метод.
++public class Method1 {
++    public static void main(String[] args) {
++        printHello("Petur");
++        printHello("Ivan");
++
++
++
++    }
++    public  static  void printHello (String name) {
++        System.out.println("Hello" + name + "!");
++    }
++}
+Index: src/Methods/Method2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Methods/Method2.java b/src/Methods/Method2.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Methods/Method2.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,43 @@
++package Methods;
++
++// Създайте метод getMax() с два целочислени (int) параметъра, който връща по-голямото от двете числа.
++// Напишете програма, която прочита три цели числа от конзолата и отпечатва най-голямото от тях,
++// изпол­звайки метода getMax().
++
++import java.util.Scanner;
++
++public class Method2 {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++
++        // Четене на три цели числа от конзолата
++        System.out.println("Enter first number:");
++        int num1 = scanner.nextInt();
++
++        System.out.println("Enter second number:");
++        int num2 = scanner.nextInt();
++
++        System.out.println("Enter third number:");
++        int num3 = scanner.nextInt();
++
++        // Намиране на най-голямото число чрез метода getMax
++        int maxOfFirstTwo = getMax(num1, num2);
++        int maxNumber = getMax(maxOfFirstTwo, num3);
++
++        // Отпечатване на най-голямото число
++        System.out.println("The largest number is: " + maxNumber);
++
++
++
++    }
++    public static  int getMax ( int num1,int num2){
++        if (num1 > num2){
++            return  num1;
++
++        }else {
++            return num2;
++
++        }
++
++    }
++}
+Index: src/Methods/Method3.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Methods/Method3.java b/src/Methods/Method3.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Methods/Method3.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,48 @@
++package Methods;
++// Напишете метод, който връща английското
++// наименование на последната цифра от дадено число.
++// Примери: за числото 512 отпечатва "two"; за числото 1024 – "four".
++public class Method3 {
++
++    public static String getLastDigitName(int number) {
++        // Намиране на последната цифра
++        int lastDigit = Math.abs(number % 10);
++
++        // Връщане на английското наименование на последната цифра
++        switch (lastDigit) {
++            case 0:
++                return "zero";
++            case 1:
++                return "one";
++            case 2:
++                return "two";
++            case 3:
++                return "three";
++            case 4:
++                return "four";
++            case 5:
++                return "five";
++            case 6:
++                return "six";
++            case 7:
++                return "seven";
++            case 8:
++                return "eight";
++            case 9:
++                return "nine";
++            default:
++                return ""; // Това никога няма да се случи, но е добра практика да има default case
++        }
++    }
++
++    // Главен метод за тестване на getLastDigitName
++    public static void main(String[] args) {
++        // Примерни числа за тестване
++        int[] testNumbers = {512, 1024, 789, 0, -123, -456};
++
++        // Тестване и отпечатване на резултатите
++        for (int number : testNumbers) {
++            System.out.println("The last digit of " + number + " is " + getLastDigitName(number));
++        }
++    }
++}
+Index: src/Methods/Method4.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Methods/Method4.java b/src/Methods/Method4.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Methods/Method4.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,34 @@
++package Methods;
++//  Напишете метод, който намира
++//  колко пъти дадено число се среща в даден масив.
++//  Напишете програма,
++//  която проверява дали този метод работи правилно.
++public class Method4 {
++    public static int countOccurrences(int[] array, int number) {
++        int count = 0;
++        for (int i = 0; i < array.length; i++) {
++            if (array[i] == number) {
++                count++;
++            }
++        }
++        return count;
++    }
++
++    // Главен метод за тестване на countOccurrences
++    public static void main(String[] args) {
++        // Примерен масив за тестване
++        int[] testArray = {1, 2, 3, 4, 2, 5, 2, 6, 2, 7, 8, 2, 9};
++
++        // Примерни числа за тестване
++        int testNumber1 = 2;
++        int testNumber2 = 5;
++        int testNumber3 = 10;
++
++        // Тестване и отпечатване на резултатите
++        System.out.println("The number " + testNumber1 + " occurs " + countOccurrences(testArray, testNumber1) + " times in the array.");
++        System.out.println("The number " + testNumber2 + " occurs " + countOccurrences(testArray, testNumber2) + " times in the array.");
++        System.out.println("The number " + testNumber3 + " occurs " + countOccurrences(testArray, testNumber3) + " times in the array.");
++    }
++
++
++}
+Index: src/Methods/MiddleCharacters.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Methods/MiddleCharacters.java b/src/Methods/MiddleCharacters.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Methods/MiddleCharacters.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,26 @@
++package Methods;
++
++import java.util.Scanner;
++// Имаме стринг от конзолата и принтираме средата
++
++public class MiddleCharacters {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++
++        String text = scanner.nextLine();
++
++        printMiddleChar(text);
++
++    }
++
++    public  static  void printMiddleChar( String text) {
++        if (text.length() % 2 == 0) {
++            System.out.print(text.charAt(text.length()/ 2-1 ));
++            System.out.print(text.charAt(text.length()/ 2));
++        }
++        else  {
++            //нечетно
++            System.out.print(text.charAt(text.length()/ 2));
++        }
++    }
++}
+Index: src/Methods/NxNMatrix.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Methods/NxNMatrix.java b/src/Methods/NxNMatrix.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Methods/NxNMatrix.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,26 @@
++package Methods;
++// Matrica ako imame 3 imame 3 na 3 i t.n
++
++import java.util.Scanner;
++
++public class NxNMatrix {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++
++        int n = Integer.parseInt(scanner.nextLine());
++
++        printNxNMatrix (n);
++    }
++    public  static  void printNxNMatrix(int n) {
++        // vyrti po redovete
++        for (int r = 0; r <n ; r++) {
++            // po koloni
++            for (int c = 0; c <n ; c++) {
++                System.out.print(n + " ");
++
++            }
++            System.out.println();
++
++        }
++    }
++}
+Index: src/Methods/SmallestOfThreeNumbers.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Methods/SmallestOfThreeNumbers.java b/src/Methods/SmallestOfThreeNumbers.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Methods/SmallestOfThreeNumbers.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,25 @@
++package Methods;
++
++import java.util.Arrays;
++import java.util.Scanner;
++// Метод ,който принтира най-малкото от три числа
++
++public class SmallestOfThreeNumbers {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++
++        int num1=Integer.parseInt(scanner.nextLine());
++        int num2=Integer.parseInt(scanner.nextLine());
++        int num3=Integer.parseInt(scanner.nextLine());
++
++         int smallestNumber = getSmallestNumber (num1,num2,num3);
++
++        System.out.println(smallestNumber);
++
++    }
++    private  static  int getSmallestNumber(int num1,int num2,int num3) {
++        int [] numbers = { num1,num2,num3};
++        Arrays.sort(numbers);
++        return  numbers[0];
++    }
++}
+Index: src/Methods/VowelsCount.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Methods/VowelsCount.java b/src/Methods/VowelsCount.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Methods/VowelsCount.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,30 @@
++package Methods;
++
++import java.util.Scanner;
++
++// метод който получава един String  и принтира броя на гласните букви
++public class VowelsCount {
++    public static void main(String[] args) {
++        Scanner scanner= new Scanner(System.in);
++        String  text = scanner.nextLine();
++
++
++        printVowelsCount (text);
++    }
++
++    public static void  printVowelsCount (String  text) {
++        int count = 0;
++        for (int i = 0; i <text.length() ; i++) {
++            char symbol = text.toLowerCase().charAt(i);
++            if(symbol == 97 || symbol == 101 ||
++                    symbol == 105 || symbol ==111 ||
++                    symbol == 117 || symbol == 121) {
++                count ++;
++
++            }
++
++        }
++        System.out.println(count);
++    }
++
++}
+Index: src/ObjectAndClass/AdvertisementMessage.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/ObjectAndClass/AdvertisementMessage.java b/src/ObjectAndClass/AdvertisementMessage.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/ObjectAndClass/AdvertisementMessage.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,36 @@
++package ObjectAndClass;
++
++// съставяме клас, който има  phrase, event author city
++// списък с фрази и на рандом избира  трчбва да са колекции (лист или масив)
++
++
++import java.util.Random;
++import java.util.Scanner;
++
++public class AdvertisementMessage {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++        int n = Integer.parseInt(scanner.nextLine());
++        Message message = new Message();
++        message.printMessages(n);
++    }
++
++    static class Message {
++        String[] phrases = {"Excelent product","Such a great product","I always use that product"};
++        String[] events = {" Not i feel good"," I have succeeded ","Makes miracles"};
++        String[] authors= {"Diana","Maya","Ivan"};
++        String[] cities= { "Burgas", "Varna","Sofia"};
++        Random random = new Random ();
++
++        void printMessages(int messages) {
++            random.nextInt(this.phrases.length);
++            for (int i = 0; i < messages; i++) {
++
++                System.out.printf("%s %s %s - %s%n ",
++                        this.phrases[  random.nextInt(this.phrases.length)], this.events[  random.nextInt(this.events.length)], this.authors[  random.nextInt(this.authors.length)],
++                        this.cities[  random.nextInt(this.cities.length)]);
++            }
++        }
++    }
++}
++
+Index: src/ObjectAndClass/Articles.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/ObjectAndClass/Articles.java b/src/ObjectAndClass/Articles.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/ObjectAndClass/Articles.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,78 @@
++package ObjectAndClass;
++
++import java.util.Arrays;
++import java.util.Scanner;
++//
++
++public class Articles {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++        String [] data = scanner.nextLine().split(", ");
++         String  title  = data[0];
++         String  content = data[1];
++         String  author = data[2];
++        Article article = new Article(title,content,author);
++
++        int n = Integer.parseInt(scanner.nextLine());
++        for (int i = 0; i <n ; i++) {
++            String[]  commands = scanner.nextLine().split(": ");
++            switch (commands[0]){
++                case "Edit":
++                    article.setContent(commands[1]);
++                    break;
++                case "ChangeAuthor":
++                    article.setAuthor(commands[1]);
++                    break;
++                case " Rename":
++                    article.setTitle(commands[1]);
++                    break;
++            }
++
++        }
++       System.out.println(article.toString().split(" "));
++    }
++
++    static class Article {
++        String title;
++        String content;
++        String author;
++
++
++        public Article(String string, String content,String  author){
++            this.title= title;
++            this.content= content;
++            this.author= author;
++
++        }
++
++        public String getTitle() {
++            return title;
++        }
++
++        public void setTitle(String title) {
++            this.title = title;
++        }
++
++        public String getContent() {
++            return content;
++        }
++
++        public void setContent(String content) {
++            this.content = content;
++        }
++
++        public String getAuthor() {
++            return author;
++        }
++
++        public void setAuthor(String author) {
++            this.author = author;
++        }
++        @Override
++        public  String toString() {
++            return  String.format("%s - %s:%s", this.title,this.content,this.author);
++
++        }
++    }
++}
++
+Index: src/ObjectAndClass/OpinionPoll.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/ObjectAndClass/OpinionPoll.java b/src/ObjectAndClass/OpinionPoll.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/ObjectAndClass/OpinionPoll.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,47 @@
++package ObjectAndClass;
++
++import java.util.ArrayList;
++import java.util.Scanner;
++// клас Person с име и години и сортираме годините,
++// като направим лист от Person и вадим тези повече от 30 г.
++
++public class OpinionPoll {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++        int n = Integer.parseInt(scanner.nextLine());
++
++        ArrayList <Person> people = new ArrayList<>();
++
++        for (int i = 0; i <n ; i++) {
++            String  [] data = scanner.nextLine().split( " \\s+");
++            Person person = new Person (data [0], Integer.parseInt(data[1]));
++            people.add(person);
++
++        }
++        people.stream()
++                .sorted((p1, p2) -> p1.name
++                        .compareTo(p2.name) )
++                .filter( (person -> person.age >= 30 ))
++                . forEach(p -> System.out.println(p.toString()));
++
++
++    }
++    static  class Person {
++        String name;
++        int age;
++
++        public Person(String name, int age) {
++            this.name = name;
++            this.age = age;
++
++
++        }
++
++        @Override
++        public String toString() {
++            return super.toString();
++        }
++
++
++    }
++}
+Index: src/SoftUni/Arr.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/SoftUni/Arr.java b/src/SoftUni/Arr.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/SoftUni/Arr.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,24 @@
++package SoftUni;
++
++
++import java.util.Scanner;
++
++//Да се напише програма, която създава масив с 20 елемента от целочислен тип и инициализира всеки от елементите със стойност равна на индекса на елемента умножен по 5. Елементите на масива да се изведат на конзолата. на Java
++public class Arr {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++
++        int [] array = new int [20];
++
++        for (int i = 0; i <array.length ; i++) {
++            array[i]= i*5;
++
++            }
++        for (int i = 0; i <array.length ; i++) {
++            System.out.println("Element at index "+ i +" :" + array[i]);
++
++        }
++
++        }
++    }
++
+Index: src/SoftUni/Reception.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/SoftUni/Reception.java b/src/SoftUni/Reception.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/SoftUni/Reception.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,28 @@
++package SoftUni;
++
++import java.util.Scanner;
++
++//
++
++public class Reception {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++        int employeeFirst = scanner.nextInt();
++        int employeeSecond = scanner.nextInt();
++        int employeeThird = scanner.nextInt();
++
++        int studentsPerHour = employeeFirst +employeeSecond +employeeThird;
++
++        int remainingStudents = scanner.nextInt();
++
++        int  hoursPassed = 0;
++        while (remainingStudents >0 ){
++            hoursPassed ++;
++            if  (hoursPassed % 4 !=0) {
++                remainingStudents -= studentsPerHour;
++            }
++        }
++        System.out.printf("Time needed: %dh.", hoursPassed);
++
++    }
++}
+Index: src/Test.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Test.java b/src/Test.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/Test.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,15 @@
++public class Test {
++
++    public static void main(String[] args) {
++        // Създаване на обект от класа Car
++        Car car = new Car();
++
++        // Извеждане на информация за колата
++        System.out.println("Car details:");
++        System.out.println("Brand: " + car.getBrand());
++        System.out.println("Model: " + car.getModel());
++        System.out.println("Color: " + car.getColor());
++        System.out.println("Power: " + car.getPower() + " hp");
++    }
++}
++
+Index: src/UnrecognisedRowException.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/UnrecognisedRowException.java b/src/UnrecognisedRowException.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/UnrecognisedRowException.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,12 @@
++public class UnrecognisedRowException  extends  Exception{
++
++    private  String message;
++
++    public  UnrecognisedRowException(String message) {
++        super((message));
++        this.message = message;
++    }
++    public String getMessage () {
++        return  message;
++    }
++}
+Index: src/VolleyBallMatch.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/VolleyBallMatch.java b/src/VolleyBallMatch.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/VolleyBallMatch.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,21 @@
++public class VolleyBallMatch extends Event {
++    protected String firstTeam;
++    protected String secondTeam;
++
++    public VolleyBallMatch(String firstTeam, String secondTeam, String place, String date, String startHour,
++                           int numberOFTickets, double priceOfTicket) {
++        super(place, date, startHour, numberOFTickets, priceOfTicket);
++        this.firstTeam = firstTeam;
++        this.secondTeam = secondTeam;
++    }
++
++    @Override
++    public boolean sellTicket(int num) throws Exception {
++        if (num > this.numberOfTickets || this.numberOfTickets == 0) {
++            throw new Exception(this.firstTeam + " - " + this.secondTeam);
++        } else {
++            this.numberOfTickets = this.numberOfTickets - num;
++            return true;
++        }
++    }
++}
+Index: src/array.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/array.java b/src/array.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/array.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,18 @@
++
++//Напишете програма която получава от стандартния вход 5 низа, разделени с интервал и записва низовете в масив.
++// Отпечатва низовете на екрана.
++
++import java.util.Scanner;
++
++public class array {
++    public static void main(String[] args) {
++        Scanner scanner= new Scanner(System.in);
++
++        String strings[] = new String[5];
++        String input= scanner.nextLine();
++        strings = input.split("");
++        for (String str:strings){
++            System.out.println(str);
++        }
++    }
++}
+Index: src/face.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/face.java b/src/face.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/face.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,20 @@
++
++//Напишете програма, която по зададени две страни на правоъгълник изчислява и отпечатва неговото лице.
++// Дължините на страните се въвеждат от стандартния вход.
++
++
++import java.sql.SQLOutput;
++import java.util.Scanner;
++
++public class face {
++    public static void main(String[] args) {
++        Scanner scanner= new Scanner(System.in);
++        double length = scanner.nextDouble();
++        double width =scanner.nextDouble();
++
++        double face= length * width;
++        System.out.println("Face:"+ face);
++
++    }
++
++}
+Index: src/myFirstProject.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/myFirstProject.java b/src/myFirstProject.java
+new file mode 100644
+--- /dev/null	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
++++ b/src/myFirstProject.java	(revision 50dd1eea43550a5a1e08dc6c56cb7c50a67c4bd3)
+@@ -0,0 +1,21 @@
++import java.util.Scanner;
++
++
++//Създайте проект myFirstProject. Създайте клас myFirstClass , в който има main() метод. В main() метода да се прочетат име, години и
++// рожденна дата на даден човек, въведени от клавиатурата, чрез използване на класа Scanner. Данните да се отпечатат на стандартния изход.
++
++public class myFirstProject {
++    public static void main(String[] args) {
++
++        Scanner scanner = new Scanner(System.in);
++
++        String name = scanner.nextLine();
++        String birthDate = scanner.nextLine();
++        int age = scanner.nextInt();
++
++        System.out.println("name:" + name);
++        System.out.println("birthDate" + birthDate);
++        System.out.println("age:" + age);
++    }
++}
++
