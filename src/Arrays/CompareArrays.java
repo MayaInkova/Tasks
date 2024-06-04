@@ -14,7 +14,7 @@ public class CompareArrays {
         System.out.println("Въведете елементите на първия масив:");
         for (int i = 0; i < n; i++) {
             array1[i] = scanner.nextInt();
-        }
+      }
 
         // Четене на втория масив
         System.out.print("Въведете броя на елементите във втория масив: ");
