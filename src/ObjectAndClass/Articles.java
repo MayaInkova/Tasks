@@ -2,7 +2,9 @@ package ObjectAndClass;
 
 import java.util.Arrays;
 import java.util.Scanner;
-//
+// дефинира клас Articles и вложен клас Article.
+Програмата позволява да се създава статия с начален титул, съдържание и автор,
+след което тези характеристики могат да се променят чрез команди, подадени от потребителя.
 
 public class Articles {
     public static void main(String[] args) {
