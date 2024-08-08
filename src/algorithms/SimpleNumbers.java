@@ -2,6 +2,8 @@ package algorithms;
 
 import java.util.ArrayList;
 
+//Ще разгледаме проблема за намиране на простите числа в някакъв интервал.
+
 public class SimpleNumbers {
     public static ArrayList<Integer> getPrimes(int start, int end) {
 
