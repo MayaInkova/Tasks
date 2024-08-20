@@ -18,7 +18,6 @@ public class SimpleGraphics extends JFrame {
         add(panel);
 
         setVisible(true);
-        //bsfn
     }
 
     public static void main(String[] args) {
