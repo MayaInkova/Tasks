@@ -5,7 +5,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 
-// програма, която чете списък от цели числа, премахва дубликатите и извежда числата в сортиран ред.
+// Програма, която чете списък от цели числа, премахва дубликатите и извежда числата в сортиран ред.
 public class UniqueSortedNumbers {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
