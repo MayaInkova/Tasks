@@ -50,5 +50,4 @@ public class Rectangle {
         rect.setWidth(-3);  // Опит за задаване на отрицателна ширина
         System.out.println("Width: " + rect.getWidth() + ", Height: " + rect.getHeight() + ", Area: " + rect.area());
     }
-//ghheed
 }
