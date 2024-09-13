@@ -11,7 +11,7 @@ public class PriorityQueueExample {
         int priority;
 
         // Конструктор за инициализация на полетата name и priority
-        public Person(String name, int priority) {
+        public Person(Name name, int priority) {
             this.name = name;
             this.priority = priority;
         }
