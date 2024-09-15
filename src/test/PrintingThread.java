@@ -11,7 +11,7 @@ public class PrintingThread extends Thread {
         print();
     }
 
-    public void print() {
+    public synchronized void print() {
         int i;
         for (i = 0; i < ob.array.length; i++) {
 
