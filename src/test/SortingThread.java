@@ -3,6 +3,7 @@ package test;
 import java.util.Arrays;
 
 public class SortingThread extends  Thread {
+    //...
     CreateArr ob;
 
     public SortingThread(CreateArr ob) {
